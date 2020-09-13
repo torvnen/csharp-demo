@@ -75,7 +75,7 @@
 
         static void Main(string[] args)
         {
-            if (args.Length == 1)
+            if (args.Length == 0)
             {
                 args = new[] { "-p" };
             }
